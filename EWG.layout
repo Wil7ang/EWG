@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src\Board.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="16" topLine="0" />
+	</File>
+	<File name="src\Board.h" open="0" top="0" tabpos="11">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="src\Cursor.h" open="0" top="0" tabpos="10">
+		<Cursor position="34" topLine="0" />
+	</File>
+	<File name="src\EWGCore.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="18" topLine="0" />
+	</File>
+	<File name="src\EWGCore.h" open="0" top="0" tabpos="9">
+		<Cursor position="18" topLine="0" />
+	</File>
+	<File name="src\ImageObject.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="22" topLine="0" />
+	</File>
+	<File name="src\ImageObject.h" open="0" top="0" tabpos="8">
+		<Cursor position="22" topLine="0" />
+	</File>
+	<File name="src\NetworkCore.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="3913" topLine="78" />
+	</File>
+	<File name="src\NetworkCore.h" open="0" top="0" tabpos="7">
+		<Cursor position="109" topLine="52" />
+	</File>
+	<File name="src\NetworkCoreLogic.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="0" topLine="197" />
+	</File>
+	<File name="src\Player.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="17" topLine="0" />
+	</File>
+	<File name="src\Player.h" open="1" top="1" tabpos="12">
+		<Cursor position="0" topLine="15" />
+	</File>
+	<File name="src\Rack.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="15" topLine="0" />
+	</File>
+	<File name="src\Rack.h" open="0" top="0" tabpos="5">
+		<Cursor position="15" topLine="0" />
+	</File>
+	<File name="src\RenderObject.h" open="0" top="0" tabpos="4">
+		<Cursor position="23" topLine="6" />
+	</File>
+	<File name="src\RenderingCore.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="24" topLine="0" />
+	</File>
+	<File name="src\RenderingCore.h" open="0" top="0" tabpos="3">
+		<Cursor position="24" topLine="0" />
+	</File>
+	<File name="src\SDLFont.h" open="0" top="0" tabpos="2">
+		<Cursor position="112240" topLine="0" />
+	</File>
+	<File name="src\Utility.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="18" topLine="0" />
+	</File>
+	<File name="src\Utility.h" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="425" topLine="0" />
+	</File>
+	<File name="src\sws\socket.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3273" topLine="170" />
+	</File>
+	<File name="src\sws\socket.h" open="0" top="0" tabpos="0">
+		<Cursor position="2333" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EWG" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\EWG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL" />
+					<Add library="SDL_net" />
+					<Add library="SDL_gfx" />
+					<Add library="SDL_image" />
+					<Add library="ws2_32" />
+					<Add library="advapi32" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\EWG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc -static-libstdc++" />
+		</Linker>
+		<Unit filename="src\Board.cpp" />
+		<Unit filename="src\Board.h" />
+		<Unit filename="src\Cursor.h" />
+		<Unit filename="src\EWGCore.cpp" />
+		<Unit filename="src\EWGCore.h" />
+		<Unit filename="src\ImageObject.cpp" />
+		<Unit filename="src\ImageObject.h" />
+		<Unit filename="src\NetworkCore.cpp" />
+		<Unit filename="src\NetworkCore.h" />
+		<Unit filename="src\NetworkCoreLogic.cpp" />
+		<Unit filename="src\Player.cpp" />
+		<Unit filename="src\Player.h" />
+		<Unit filename="src\Rack.cpp" />
+		<Unit filename="src\Rack.h" />
+		<Unit filename="src\RenderObject.h" />
+		<Unit filename="src\RenderingCore.cpp" />
+		<Unit filename="src\RenderingCore.h" />
+		<Unit filename="src\SDLFont.h" />
+		<Unit filename="src\Utility.cpp" />
+		<Unit filename="src\Utility.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\sws\Tracer.h" />
+		<Unit filename="src\sws\UrlHelper.cpp" />
+		<Unit filename="src\sws\UrlHelper.h" />
+		<Unit filename="src\sws\base64.cpp" />
+		<Unit filename="src\sws\base64.h" />
+		<Unit filename="src\sws\socket.cpp" />
+		<Unit filename="src\sws\socket.h" />
+		<Unit filename="src\sws\stdHelpers.cpp" />
+		<Unit filename="src\sws\stdHelpers.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

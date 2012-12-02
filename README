@@ -1,0 +1,3 @@
+EWG - Extravagent Word Game
+
+A Scrabble like game written to be played with a tablet pc and four separate network connected devices which access their rack of characters via a basic html interface. (No need for any platform specific app...)

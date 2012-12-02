@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1303337454 source:c:\users\wilson tang\documents\development\ewg\src\main.cpp
+	"RenderingCore.h"
+	"ImageObject.h"
+	<cstdio>
+	"NetworkCore.h"
+	"EWGCore.h"
+
+1303273913 c:\users\wilson tang\documents\development\ewg\src\renderingcore.h
+	<vector>
+	"SDL/SDL.h"
+	"SDL/SDL_gfxPrimitives.h"
+	"RenderObject.h"
+
+1302990701 source:c:\users\wilson tang\documents\development\ewg\src\renderingcore.cpp
+	"RenderingCore.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_rotozoom.h"
+	<algorithm>
+	<vector>
+	<iostream>
+	"Cursor.h"
+
+1301962565 c:\users\wilson tang\documents\development\ewg\src\renderobject.h
+	"SDL/SDL.h"
+
+1302979768 source:c:\users\wilson tang\documents\development\ewg\src\imageobject.cpp
+	"ImageObject.h"
+
+1302979723 c:\users\wilson tang\documents\development\ewg\src\imageobject.h
+	<string>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_rotozoom.h"
+	"RenderObject.h"
+
+1303101615 source:c:\users\wilson tang\documents\development\ewg\src\networkcore.cpp
+	<ctime>
+	<process.h>
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	"NetworkCore.h"
+	"sws/UrlHelper.h"
+	"sws/base64.h"
+
+1303340901 source:c:\users\wilson tang\documents\development\ewg\src\board.cpp
+	"Board.h"
+	<fstream>
+
+1302928132 c:\users\wilson tang\documents\development\ewg\src\cursor.h
+
+1302930491 source:c:\users\wilson tang\documents\development\ewg\mongoose.c
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+	<signal.h>
+	<fcntl.h>
+	<time.h>
+	<stdlib.h>
+	<stdarg.h>
+	<assert.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<windows.h>
+	<process.h>
+	<direct.h>
+	<io.h>
+	<winsock2.h>
+	<stdint.h>
+	<sys/wait.h>
+	<sys/socket.h>
+	<sys/select.h>
+	<sys/mman.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<netdb.h>
+	<pwd.h>
+	<unistd.h>
+	<dirent.h>
+	<dlfcn.h>
+	<pthread.h>
+	"mongoose.h"
+
+1285546034 c:\users\wilson tang\documents\development\ewg\mongoose.h
+
+1302971633 source:c:\users\wilson tang\documents\development\ewg\sockets.cpp
+	"sockets.h"
+	<iostream>
+
+1302971602 c:\users\wilson tang\documents\development\ewg\sockets.h
+	<WinSock2.h>
+	<string>
+
+1088216858 source:c:\users\wilson tang\documents\development\ewg\src\sws\urlhelper.cpp
+	"UrlHelper.h"
+	"Tracer.h"
+	"stdHelpers.h"
+	<windows.h>
+	<sstream>
+	<iostream>
+
+1088216858 c:\users\wilson tang\documents\development\ewg\src\sws\urlhelper.h
+	<string>
+	<map>
+
+1088216858 c:\users\wilson tang\documents\development\ewg\src\sws\tracer.h
+	<string>
+	<sstream>
+	<windows.h>
+
+1088216858 c:\users\wilson tang\documents\development\ewg\src\sws\stdhelpers.h
+	<string>
+
+1088280974 source:c:\users\wilson tang\documents\development\ewg\src\sws\base64.cpp
+	"base64.h"
+	<iostream>
+
+1088280974 c:\users\wilson tang\documents\development\ewg\src\sws\base64.h
+	<string>
+
+1302996365 source:c:\users\wilson tang\documents\development\ewg\src\sws\socket.cpp
+	<iostream>
+	"Socket.h"
+
+1302981916 c:\users\wilson tang\documents\development\ewg\src\sws\socket.h
+	<winsock2.h>
+	<string>
+
+1115764152 source:c:\users\wilson tang\documents\development\ewg\src\sws\stdhelpers.cpp
+	"stdHelpers.h"
+	<algorithm>
+	<cctype>
+
+1302984097 source:c:\users\wilson tang\documents\development\ewg\src\sws\webserver.cpp
+	<ctime>
+	<process.h>
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	"webserver.h"
+	"UrlHelper.h"
+	"base64.h"
+
+1302984125 c:\users\wilson tang\documents\development\ewg\src\sws\webserver.h
+	<string>
+	<map>
+	"socket.h"
+
+1302983698 c:\users\wilson tang\documents\development\ewg\src\serverlogic.h
+	"sws/webserver.h"
+	"sws/socket.h"
+
+1303413295 source:c:\users\wilson tang\documents\development\ewg\src\networkcorelogic.cpp
+	"NetworkCore.h"
+	<time.h>
+	<sstream>
+	"Utility.h"
+	<fstream>
+
+1303101607 c:\users\wilson tang\documents\development\ewg\src\networkcore.h
+	<string>
+	<map>
+	"sws/socket.h"
+	"EWGCore.h"
+
+1303434625 source:c:\users\wilson tang\documents\development\ewg\src\ewgcore.cpp
+	"EWGCore.h"
+	<cmath>
+	<fstream>
+	"SDL/SDL_gfxPrimitives.h"
+	"SDLFont.h"
+
+1303341732 source:c:\users\wilson tang\documents\development\ewg\src\rack.cpp
+	"Rack.h"
+
+1303345112 c:\users\wilson tang\documents\development\ewg\src\rack.h
+	<vector>
+	<stdlib.h>
+	<time.h>
+	"SDL/SDL.h"
+	<fstream>
+	"Utility.h"
+
+1303434642 c:\users\wilson tang\documents\development\ewg\src\ewgcore.h
+	"Player.h"
+	"RenderObject.h"
+	"ImageObject.h"
+	<vector>
+	"Board.h"
+
+1303172091 c:\users\wilson tang\documents\development\ewg\src\player.h
+	"Rack.h"
+	<string>
+
+1303172095 source:c:\users\wilson tang\documents\development\ewg\src\player.cpp
+	"Player.h"
+
+1303099874 c:\users\wilson tang\documents\development\ewg\src\board.h
+	"Rack.h"
+	"RenderObject.h"
+
+1303165752 c:\users\wilson tang\documents\development\ewg\src\utility.h
+	<sstream>
+
+1303165747 source:c:\users\wilson tang\documents\development\ewg\src\utility.cpp
+	"Utility.h"
+
+1303183691 c:\users\wilson tang\documents\development\ewg\src\sdlfont.h
+
